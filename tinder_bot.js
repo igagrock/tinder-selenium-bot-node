@@ -1,6 +1,6 @@
 
 
-const { Builder, By, Key, until, Capabilities } = require('selenium-webdriver');
+
 
 
 const tinderBot = async function () {
@@ -38,7 +38,7 @@ const tinderBot = async function () {
     await driver.wait(until.elementsLocated(By.css("input[name='phone_number']")), 50000);
 
     await driver.findElement(By.css("input[name='phone_number']"))
-        .sendKeys(9632477836);
+        .sendKeys(xxxx);
 
 
     await driver.sleep(2000);
