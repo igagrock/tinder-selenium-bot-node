@@ -1,0 +1,22 @@
+{
+  "name": "tinder-swipe-bot",
+  "version": "1.0.0",
+  "description": "to run:  - download chromedriver, unzip, move to `/usr/local/bin` (mac os / linux)  - `pip install selenium`",
+  "main": "tinder_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aj-4/tinder-swipe-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aj-4/tinder-swipe-bot/issues"
+  },
+  "homepage": "https://github.com/aj-4/tinder-swipe-bot#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
